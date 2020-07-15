@@ -37,7 +37,7 @@ public class Main {
 		empregado.setSalarioBase(250.0);
 		empregado.setImposto(15.0);
 		System.out.println("NOME: " + empregado.getNome());
-		System.out.println("ENDERÇO: " + empregado.getEndereco());
+		System.out.println("ENDEREÇO: " + empregado.getEndereco());
 		System.out.println("TELEFONE: " + empregado.getTelefone());
 		System.out.println("SALARIO FINAL: R$" + empregado.calcularSalario());
 		
@@ -61,7 +61,7 @@ public class Main {
 		operario.setValorProducao(150.0);
 		operario.setComissao(20.0);
 		System.out.println("NOME: " + operario.getNome());
-		System.out.println("ENDERÇO: " + operario.getEndereco());
+		System.out.println("ENDEREÇO: " + operario.getEndereco());
 		System.out.println("TELEFONE: " + operario.getTelefone());
 		System.out.println("VALOR FINAL: R$" + operario.calcularValor());
 		
@@ -73,7 +73,7 @@ public class Main {
 		vendedor.setValorVendas(150.0);
 		vendedor.setComissao(10.0);
 		System.out.println("NOME: " + vendedor.getNome());
-		System.out.println("ENDERÇO: " + vendedor.getEndereco());
+		System.out.println("ENDEREÇO: " + vendedor.getEndereco());
 		System.out.println("TELEFONE: " + vendedor.getTelefone());
 		System.out.println("VALOR FINAL: R$" + vendedor.calcularValor());
 	}
