@@ -1,14 +1,14 @@
 package atividadeSuperClass;
 
 public class Empregado  extends Pessoa {
+	
+	
 	private int codigoSetor;
 	private double salarioBase;
 	private double imposto;
 	
-	
-	public Empregado() {	
-	}
-	
+	public Empregado () {super();} // SUPER
+
 	public int getCodigoSetor() {
 		return codigoSetor;
 	}

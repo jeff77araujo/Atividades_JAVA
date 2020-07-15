@@ -5,12 +5,13 @@ public class Pessoa {
 	private String endereco; 
 	private String telefone; 
 	
-	// ATRIBUTOS
 	public Pessoa (String nome, String endereco, String telefone){
 		this.nome = nome;
 		this.endereco = endereco;
 		this.telefone = telefone;
 	}
+	
+	public Pessoa () {} // CONSTRUCTOR VAZIO
 	
 	public String getDadosPessoa () {
 		String dadosPessoa = nome + " , " + endereco + " , " + telefone;
